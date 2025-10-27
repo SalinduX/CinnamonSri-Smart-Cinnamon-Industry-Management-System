@@ -1,5 +1,4 @@
 import AppNavigator from "@/navigation/AppNavigator";
-import HomeScreen from "@/screens/HomeScreen";
 
 import { StatusBar } from "expo-status-bar"; // Use Expo StatusBar
 import { SafeAreaProvider } from "react-native-safe-area-context";
@@ -7,10 +6,8 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 export default function Page() {
   return (
     <SafeAreaProvider>
-      
-        <StatusBar style="auto" />
-        <HomeScreen />
-      
+      <StatusBar style="auto" />
+      <AppNavigator />
     </SafeAreaProvider>
   );
 }
