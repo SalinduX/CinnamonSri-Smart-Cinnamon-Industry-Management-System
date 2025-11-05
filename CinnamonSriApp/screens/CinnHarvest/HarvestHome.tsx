@@ -122,6 +122,8 @@ export default function HomeScreen() {
       {/* Spacer for bottom nav */}
       <View style={{ height: 60 }} />
 
+      {/* Enhanced UI improvements */}
+
       {/* Bottom navigation icons */}
       <View style={styles.bottomNav}>
         <TouchableOpacity style={styles.navItem} activeOpacity={0.7}>
