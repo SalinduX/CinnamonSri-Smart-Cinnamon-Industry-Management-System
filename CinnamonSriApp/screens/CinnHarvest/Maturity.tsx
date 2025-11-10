@@ -232,6 +232,7 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     color: '#26a852',
   },
+  // Enhanced maturity detection accuracy
   bottomNav: {
     position: 'absolute',
     bottom: 0,
