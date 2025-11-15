@@ -240,6 +240,7 @@ const styles = StyleSheet.create({
   navItem: {
     alignItems: 'center',
   },
+  // Export functionality enhancements
 });
 
 
