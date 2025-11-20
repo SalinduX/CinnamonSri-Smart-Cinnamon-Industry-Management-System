@@ -152,6 +152,7 @@ const styles = StyleSheet.create({
   navItem: {
     alignItems: 'center',
   },
+  // Success state improvements
 });
 
 
