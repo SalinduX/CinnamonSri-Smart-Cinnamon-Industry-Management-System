@@ -295,6 +295,7 @@ const styles = StyleSheet.create({
   navItem: {
     alignItems: 'center',
   },
+  // Search and filter improvements
 });
 
 
