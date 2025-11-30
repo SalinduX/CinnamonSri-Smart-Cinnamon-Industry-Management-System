@@ -160,6 +160,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     width: '100%',
   },
+  // Enhanced tips content and formatting
 });
 
 
