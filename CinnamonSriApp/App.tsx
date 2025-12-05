@@ -20,6 +20,7 @@ export type RootStackParamList = {
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 export default function App() {
+  // Enhanced navigation with CinnHarvest integration
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="CinnOracleMain">
