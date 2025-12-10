@@ -123,6 +123,7 @@ export default function HomeScreen() {
       <View style={{ height: 60 }} />
 
       {/* Enhanced UI improvements */}
+      {/* Image assets optimization */}
 
       {/* Bottom navigation icons */}
       <View style={styles.bottomNav}>
