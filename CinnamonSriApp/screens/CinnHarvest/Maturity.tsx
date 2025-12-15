@@ -233,6 +233,7 @@ const styles = StyleSheet.create({
     color: '#26a852',
   },
   // Enhanced maturity detection accuracy
+  // UI styling refinements
   bottomNav: {
     position: 'absolute',
     bottom: 0,
