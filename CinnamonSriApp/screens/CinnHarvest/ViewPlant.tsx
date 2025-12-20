@@ -241,6 +241,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   // Export functionality enhancements
+  // User experience improvements
 });
 
 
