@@ -161,6 +161,7 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   // Enhanced tips content and formatting
+  // Final UI polish and refinements
 });
 
 
