@@ -4,11 +4,9 @@ import { View, Text } from 'react-native'
 const index = () => {
   return (
     <View>
-      <Text
-        style={{
-            color: 'red',
-            fontSize: 20,
-        }}>index</Text>
+      <Text className="text-xl font-bold text-blue-500">
+        Welcome to Nativewind!
+      </Text>
     </View>
   )
 }
