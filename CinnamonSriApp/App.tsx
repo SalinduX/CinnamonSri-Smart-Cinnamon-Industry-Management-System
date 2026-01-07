@@ -1,12 +1,12 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import CinnOracleMain from './screens/CinnOracleMain';
-import NewAnalysis from './screens/NewAnalysis';
-import PricePrediction from './screens/PricePrediction';
-import HistoricalTrends from './screens/HistoricalTrends';
-import SavedSuccess from './screens/SavedSuccess';
-import Report from './screens/Report';
+import CinnOracleMain from './screens/CinnOracle/CinnOracleMain';
+import NewAnalysis from './screens/CinnOracle/NewAnalysis';
+import PricePrediction from './screens/CinnOracle/PricePrediction';
+import HistoricalTrends from './screens/CinnOracle/HistoricalTrends';
+import SavedSuccess from './screens/CinnOracle/SavedSuccess';
+import Report from './screens/CinnOracle/Report';
 
 export type RootStackParamList = {
   CinnOracleMain: undefined;
