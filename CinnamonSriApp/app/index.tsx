@@ -1,10 +1,22 @@
 import { Link } from 'expo-router'
-import { StyleSheet, Text, View } from 'react-native'
-
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import Header from '@/layout/header'
+import { Ionicons } from '@expo/vector-icons'
 
 const Index = () => {
   return (
     <View>
+       <Header 
+       
+       Left={
+        <TouchableOpacity>
+            <Ionicons name="menu" size={27} color="black" />
+       </TouchableOpacity>
+    }
+         centertext="Home"
+    /> 
+
+      
       <Text>Index</Text>
       <Link href={'/category'}>Category</Link>
       <Link href={{
