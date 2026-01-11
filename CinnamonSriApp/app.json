@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "CinnamonSriApp",
-    "slug": "CinnamonSriApp",
+    "name": "CinnOracleApp",
+    "slug": "CinnOracleApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "cinnamonsriapp",
+    "scheme": "cinnoracleapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
