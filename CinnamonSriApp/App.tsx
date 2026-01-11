@@ -7,6 +7,7 @@ import PricePrediction from './screens/CinnOracle/PricePrediction';
 import HistoricalTrends from './screens/CinnOracle/HistoricalTrends';
 import SavedSuccess from './screens/CinnOracle/SavedSuccess';
 import Report from './screens/CinnOracle/Report';
+import HarvestHome from './screens/CinnHarvest/HarvestHome';
 
 export type RootStackParamList = {
   CinnOracleMain: undefined;
@@ -15,6 +16,7 @@ export type RootStackParamList = {
   HistoricalTrends: undefined;
   SavedSuccess: undefined;
   Report: { batchData: any };
+  HarvestHome: undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -51,6 +53,11 @@ export default function App() {
         <Stack.Screen 
           name="Report" 
           component={Report}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen 
+          name="HarvestHome" 
+          component={HarvestHome}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
